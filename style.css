@@ -8,7 +8,7 @@ body{
     z-index:3;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
-    background-color:rgba(255, 255, 255, 0.6);;
+    background-color:rgba(255, 255, 255, 0.6);
     height:75px;
 }
 *{
@@ -83,7 +83,7 @@ body{
     cursor:pointer;
 }
 #seart{
-    background-image: url(./assets/Img-search.png);
+    background-image: url('Assets/Img-search.png');
     height:100vh;
     background-repeat:no-repeat;
     background-size:cover;
@@ -134,7 +134,7 @@ text-align: center;
 
 }
 .nav-tabs .nav-link{
-    background-color:rgba(255,255,255,0.5);
+
     color:#000;
     border:none;
 
@@ -255,11 +255,6 @@ color:white;
 
     
 }
-.navbar-nav{
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    background-color:rgba(255, 255, 255, 0.6);;
-}
 .btn-sur{
 font-size: 18px;
 font-weight: 600;
@@ -272,7 +267,7 @@ background: #00985B;
 
 }
 #form{
-    background-image: url(./assets/kontak-img.png);
+    background-image: url('Assets/kontak-img.png');
     height:100vh;
     background-repeat:no-repeat;
     background-size:cover;
